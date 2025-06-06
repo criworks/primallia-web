@@ -1,7 +1,7 @@
 import type React from "react"
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
-import "./globals.css"
+import "../globals.css"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description: "Invierte con la tribu desde $100 dólares en proyectos de alta rentabilidad",
 }
 
-export default function RootLayout({
+export default function WebsiteLayout({
   children,
 }: Readonly<{
   children: React.ReactNode
